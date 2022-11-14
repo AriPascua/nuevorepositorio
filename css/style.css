@@ -103,7 +103,6 @@ h2 {
 }
 
 p{color: rgb(255, 255, 255);
-    font-family: 'Oswald', sans-serif;
     font-size: 2rem;
     margin-top: 5rem;
     text-align: center;
@@ -136,7 +135,7 @@ p{color: rgb(255, 255, 255);
 }
 .submit-form{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .miembros {
     color: white;
@@ -241,3 +240,7 @@ footer {
  align-items: center;
 }
 
+#carouselExampleIndicators{
+    width: 50%;
+    margin: 0 auto;
+}

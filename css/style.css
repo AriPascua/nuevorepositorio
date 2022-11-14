@@ -135,7 +135,7 @@ p{color: rgb(255, 255, 255);
 }
 .submit-form{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .miembros {
     color: white;

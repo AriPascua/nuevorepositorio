@@ -14,6 +14,7 @@ body{
     color: rgb(219, 95, 95);
 }
 
+
 .color-nav{
     background-color: rgb(75, 4, 4);
     font-size: 2rem;   
@@ -109,6 +110,12 @@ p{color: rgb(255, 255, 255);
     margin-left: 5rem;
 }
 
+@media screen and (max-width:450px) {
+    .miembros{
+        font-size: 1rem;
+    }
+}
+
 .discografia {
    color: white;
    font-size: 2rem;   
@@ -180,13 +187,15 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
 }
 
 .inicio-inicio{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    gap: 30px;  
 }
 
 #inicio-ifram{

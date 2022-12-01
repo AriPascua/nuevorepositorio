@@ -1,0 +1,61 @@
+#contenedor-principal{
+  display: grid;
+  grid-template-areas:
+  "header header header"
+  "videos videos videos"
+  "footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.miembros {
+    color: white;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+  }
+  
+
+
+.carousel-img {
+    width: 65%;
+    margin: 0 auto;
+    
+  }
+
+  .principales{
+    color: rgb(219, 95, 95);
+  }
+
+  #spoti-larenga{
+    grid-area: videos;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 4rem;
+    padding: 50px;
+  }
+  
+  .titulo-spotify {
+    text-align: center;
+  }
+
+  @media  screen and (max-width:$pantalla-grande) {
+    #spoti-larenga{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+  }
+  @media screen and (max-width:$pantalla-mediana) {
+    #spoti-larenga{
+        grid-template-columns: 1fr;
+    }
+    
+  }
+  @media screen and (max-width:$pantalla-chica) {
+    .miembros{
+        font-size: 22px;
+    }
+  }

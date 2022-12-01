@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2-pascua",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AriPascua/nuevorepositorio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AriPascua/nuevorepositorio/issues"
+  },
+  "homepage": "https://github.com/AriPascua/nuevorepositorio#readme",
+  "description": ""
+}

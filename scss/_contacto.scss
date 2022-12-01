@@ -1,0 +1,27 @@
+#formulario-contacto {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    color: white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    
+  }
+  
+.formulario {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    column-gap: 4rem;
+    }
+  .sexo {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    justify-content: space-evenly;
+  }
+  .submit-form{
+    display: flex;
+    justify-content: space-around;
+  }

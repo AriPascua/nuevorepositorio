@@ -6,10 +6,6 @@
     font-size: 62.5%;
   }
   
- /* body{
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(109, 11, 11))
-  }
-  */
   body{
     @if $fiesta == navidad {
       background-color: red;

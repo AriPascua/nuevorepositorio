@@ -1,19 +1,22 @@
 #formulario-contacto {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-around;
-    color: white;
-    font-size: 2rem;
-    margin-top: 5rem;
-    margin-left: 5rem;
+    justify-content: start;
+    margin-left: 15px;
     
   }
   
 .formulario {
-    display: flex;
-    justify-content: flex-end;
-    padding: 2rem;
-    column-gap: 4rem;
+  max-width: 100%;
+  padding: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  color: aliceblue;
+  border-radius: 10px;
+  box-shadow: inset 1px 1px 15px 4px;
+
     }
   .sexo {
     display: flex;
@@ -24,4 +27,7 @@
   .submit-form{
     display: flex;
     justify-content: space-around;
+  }
+  .mapa {
+    margin-top: 50px;
   }

@@ -5,6 +5,15 @@
   html {
     font-size: 62.5%;
   }
+  .larengaimg {
+    height: 100%;
+  img {
+    width: 100%;
+	  vertical-align: top;
+	  object-fit: cover;
+	  object-position: 0 bottom;
+  }
+  }
   
   body{
     @if $fiesta == navidad {
@@ -14,16 +23,17 @@
       background-color: green;
     }
     @else {
-      background-image: linear-gradient(rgb(0, 0, 0), rgb(109, 11, 11))
-
+      background-color: black;
     }
   }
+
+
 ul {
   list-style: none;
 }
 
 h1 {
-    color: red;
+    color: rgb(255, 255, 255);
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
     margin-bottom: 3rem;

@@ -9,14 +9,20 @@
 .formulario {
   max-width: 100%;
   padding: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   font-weight: bold;
   font-size: 15px;
   color: aliceblue;
   border-radius: 10px;
   box-shadow: inset 1px 1px 15px 4px;
 
+    }
+    @media  screen and (max-width:800px) {
+      .formulario{
+        margin-left: 15px;
+      }
+      
     }
   .sexo {
     display: flex;

@@ -169,8 +169,8 @@ h1 {
 .formulario {
   max-width: 100%;
   padding: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   font-weight: bold;
   font-size: 15px;
   color: aliceblue;
@@ -178,6 +178,11 @@ h1 {
   box-shadow: inset 1px 1px 15px 4px;
 }
 
+@media screen and (max-width: 800px) {
+  .formulario {
+    margin-left: 15px;
+  }
+}
 .sexo {
   display: flex;
   flex-direction: row;
@@ -218,6 +223,11 @@ aside {
   top: 20px;
 }
 
+@media screen and (max-width: 640px) {
+  aside {
+    font-size: 9px;
+  }
+}
 aside .titulo {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;

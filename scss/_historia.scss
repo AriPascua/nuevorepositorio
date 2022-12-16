@@ -1,6 +1,6 @@
 .contenedor {
 	max-width: 1000px;
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
@@ -9,6 +9,7 @@
 main {
 	min-height: 100vh;
 }
+
 
 
 
@@ -22,6 +23,7 @@ aside {
 	border-radius: 3px;
     position: sticky;
     top: 20px;
+	
 }
 
 @media  screen and (max-width:640px){
